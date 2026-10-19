@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     event.preventDefault();
     const subject = encodeURIComponent(form.dataset.subject || 'Pixora support request');
     const body = encodeURIComponent(form.querySelector('textarea').value || '');
-    window.location.href = `mailto:support@pixora.app?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:me.wangjun@qq.com?subject=${subject}&body=${body}`;
   });
 });

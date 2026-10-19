@@ -1,9 +1,0 @@
-name = "pixora-pages-proxy"
-main = "worker.js"
-compatibility_date = "2026-10-18"
-
-# Cloudflare creates this hostname's DNS record and certificate automatically.
-# The Worker transparently proxies the GitHub Pages deployment below.
-routes = [
-  { pattern = "pixora.zpad.app", custom_domain = true }
-]
