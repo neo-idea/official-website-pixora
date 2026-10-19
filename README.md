@@ -1,3 +1,5 @@
+> ⚠️ **警告：请勿直接修改此仓库！本仓库属于镜像仓库**，由私有 monorepo `neo-idea/official-website` 自动同步发布，手动修改会被下次发布覆盖。
+
 # Pixora official website
 
 Static, bilingual, and dependency-free production site.
