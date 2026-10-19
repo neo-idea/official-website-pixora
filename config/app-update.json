@@ -1,9 +1,15 @@
 {
   "minimumRequiredVersion": "1.0",
   "forceUpdateEnabled": false,
-  "message": "此版本已不再支持。请更新轻时光后继续整理照片。",
+  "message": "This version is no longer supported. Please update Pixora to continue organizing photos.",
   "appStoreURL": "https://apps.apple.com/app/id6824197518",
   "recommendedVersion": "1.0",
   "optionalUpdateEnabled": false,
-  "optionalMessage": "更新可提升稳定性和整理体验，你可以稍后继续使用当前版本。"
+  "optionalMessage": "This update improves stability and organizing. You can keep using this version for now.",
+  "localizations": {
+    "zh-Hans": {
+      "message": "此版本已不再支持。请更新轻时光后继续整理照片。",
+      "optionalMessage": "更新可提升稳定性和整理体验，你可以稍后继续使用当前版本。"
+    }
+  }
 }

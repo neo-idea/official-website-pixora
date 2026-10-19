@@ -10,5 +10,5 @@ Static, bilingual, and dependency-free production site.
 
 1. GitHub Pages source is [`neo-idea/pixora-official`](https://github.com/neo-idea/pixora-official); push the contents of this directory to `main`.
 2. In Cloudflare DNS for `zpad.app`, `pixora` is a DNS-only CNAME to `neo-idea.github.io`. Keep it DNS-only (grey cloud) so GitHub Pages can issue and renew the custom-domain HTTPS certificate.
-3. GitHub Pages has `pixora.zpad.app` configured as its custom domain. After the certificate is available, enable **Enforce HTTPS** in the repository Pages settings.
+3. GitHub Pages has `pixora.zpad.app` configured as its custom domain, and **Enforce HTTPS** is enabled.
 4. The canonical remote force-update config is `https://pixora.zpad.app/config/app-update.json`.
